@@ -1,0 +1,14 @@
+
+** What is a singleton pattern and when do you use it? Please use an example.
+The Singleton Pattern ensures that a class is instantiated only once, providing a single point of access to its object globally.
+This pattern is useful when only one instance of a class is needed to control actions, such as managing a resource or coordinating processes across a system.
+
+Example: For security reasons, a Singleton could be used to allow only one active session of an application on a mainframe, ensuring that all users on a network access the same instance.
+Another example would be ensuring that only one connection to a specific database is established across an application.
+
+** What is a dependency injection and when do you use it? Please use an example.
+Dependency Injection is a design pattern that decouples classes from their dependencies by injecting those dependencies from outside, typically through a constructor or setter.
+This promotes better code reusability, modularity, and easier testing, as each class can focus on its own logic without worrying about managing its dependencies.
+
+Example: In a web application, Dependency Injection can be used to inject services like authentication or logging into a main component.
+This allows the main page to function independently, and any changes in internal objects or services (such as data updates) automatically reflect without altering the main component’s behaviour.
